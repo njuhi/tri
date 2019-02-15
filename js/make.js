@@ -8,7 +8,7 @@ var triangle = function() {
     {
       alert("equilateral");
     }
-    else if (base<side || side>hypotenuse || hypotenuse<side);
+    else (base<side || side>hypotenuse || hypotenuse<side);
     {
       alert("not equilateral");
     }
