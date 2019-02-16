@@ -8,6 +8,6 @@ var triangle = function() {
        }
       else (base==side || side<hypotenuse || hypotenuse>base);
       {
-      alert("isoceles");
+        alert("isoceles");
       }
     };
