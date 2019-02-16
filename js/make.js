@@ -1,9 +1,8 @@
 var triangle = function() {
-  var base = parsefloat(document.getElementById('base').value);
-  var side = parsefloat(document.getElementById('side').value);
-  var hypotenuse = parsefloat(document.getElementById('hypotenuse').value);
-  if
-  ( base == side && base == hypotenuse);
+  var base = parseint(document.getElementById('base').value);
+  var side = parseint(document.getElementById('side').value);
+  var hypotenuse = parseint(document.getElementById('hypotenuse').value);
+  if( base == side && base == hypotenuse);
     {
       alert("equilateral");
     }
