@@ -4,9 +4,5 @@ var triangle = function() {
   var hypotenuse = parseint(document.getElementById('hypotenuse').value);
      if( base == side && side == hypotenuse);
       {
-         alert("equilateral");
-       }else (base==side || side<hypotenuse || hypotenuse>base);
-      {
-        alert("isoceles");
-      }
-     };
+         alert("equilateral");}
+       }
