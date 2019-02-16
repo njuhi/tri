@@ -10,6 +10,6 @@ var triangle = function() {
     }
     else (base==side || side<hypotenuse || hypotenuse>base);
     {
-      alert("not equilateral");
+      alert("isoceles");
     }
   }
