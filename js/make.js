@@ -6,9 +6,17 @@ var triangle = function(){
   if(s1==s2 && s2==s3 && s3==s1){
         alert("equilateral");
     }
-    else {
+    else if (s1===s2 && s2!=s3) {
+    alert("isoceles")
 
-    alert("not an equilateral");
+  }else if(s2==s3 && s2!=s1)  {
+    alert("isoceles")
   }
+  else if (s3==s1 && s1==s2) {
+    alert("isoceles")
+  }else if (s1!==s2 && s1!==s3 && s2!==s3) {
+    alert("scalene")
+  }
+
 }
 triangle();
