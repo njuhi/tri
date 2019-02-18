@@ -6,7 +6,7 @@ var triangle = function(){
   if(s1==s2 && s2==s3 && s3==s1){
         alert("equilateral");
     }
-    else if (s1===s2 && s2!=s3) {
+    else if (s1==s2 && s2!=s3) {
     alert("isoceles")
 
   }else if(s2==s3 && s2!=s1)  {
